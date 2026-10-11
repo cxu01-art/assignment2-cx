@@ -14,3 +14,6 @@ cat("\nNumber of penguins by species\n")
 print(table(penguins$species))
 
 sink()
+
+# Bar Chart showing penguin counts by species
+barplot(table(penguins$species))
